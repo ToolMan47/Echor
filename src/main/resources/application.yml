@@ -1,0 +1,24 @@
+server:
+  host: #host
+  port: #port
+line:
+  bot:
+    channel-token: #line-channel-token 
+    handler:
+      path: /callback
+    channel-secret: #line-channel-secret
+spring:
+  application:
+    name: echor
+    
+  h2:
+    console.enabled: true
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: 
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate.ddl-auto: none
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    
