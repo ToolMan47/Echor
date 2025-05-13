@@ -1,4 +1,4 @@
-# Linebot
+# Echor
 Side project of Linebot。練習 Webhook, LineAPI, Design Pattern  
 由 Line Platform 過來的資料大致區分不同 Event，根據不同 Event 在不同的 Service 去指派對應的處理 Strategy，處理後的訊息以樣板形式回傳
 
